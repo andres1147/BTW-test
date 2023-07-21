@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnoMarketAPI", "TecnoMarketAPI\TecnoMarketAPI.csproj", "{FD09A60A-A7BA-4111-92AF-437E4D3DC169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD09A60A-A7BA-4111-92AF-437E4D3DC169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD09A60A-A7BA-4111-92AF-437E4D3DC169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD09A60A-A7BA-4111-92AF-437E4D3DC169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD09A60A-A7BA-4111-92AF-437E4D3DC169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BB7C2BD-72F6-47E3-97D6-CAABD3F7631E}
+	EndGlobalSection
+EndGlobal

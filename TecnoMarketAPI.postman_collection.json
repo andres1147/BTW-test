@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "c377b2e7-6ed4-48a7-a701-698cc03dd641",
+		"name": "TecnoMarketAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8515526",
+		"_collection_link": "https://martian-flare-369046.postman.co/workspace/BTW~54ea6a19-05b8-414f-9685-b9e4a762db1d/collection/8515526-c377b2e7-6ed4-48a7-a701-698cc03dd641?action=share&creator=8515526&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GetProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/api/Productos",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"api",
+						"Productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductsById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/api/Productos/1",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"api",
+						"Productos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Acer GTX-3315\",\r\n  \"precio\": \"1500\",\r\n  \"stock\": \"16\",\r\n  \"descripcion\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend porttitor lectus, pharetra dignissim lacus egestas sit amet. Vestibulum eget sapien tempor, ultricies ligula\",\r\n  \"tipoProducto\": \"Computador\",\r\n  \"imagen\": \"image\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{env}}/api/productos",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"api",
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Acer GTX-3318\",\r\n    \"precio\": 1500,\r\n    \"stock\": 16,\r\n    \"descripcion\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend porttitor lectus, pharetra dignissim lacus egestas sit amet. Vestibulum eget sapien tempor, ultricies ligula\",\r\n    \"tipoProducto\": \"Computador\",\r\n    \"imagen\": \"no-image.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{env}}/api/Productos/1",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"api",
+						"Productos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/api/Productos/2",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"api",
+						"Productos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
